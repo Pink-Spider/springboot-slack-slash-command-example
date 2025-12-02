@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: slack-slash-command-example
+
+server:
+  port: 8080
+  shutdown: graceful
