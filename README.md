@@ -1,5 +1,10 @@
 # Spring Boot Slack Slash Command Example
 
+[![Java](https://img.shields.io/badge/Java-24-ED8B00?logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/24/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.0-6DB33F?logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![Gradle](https://img.shields.io/badge/Gradle-8.14.2-02303A?logo=gradle&logoColor=white)](https://gradle.org)
+[![Slack API](https://img.shields.io/badge/Slack%20API%20Client-1.39.0-4A154B)](https://api.slack.com)
+
 Slack Slash Command를 처리하는 Spring Boot 애플리케이션 예제입니다.
 
 ## 프로젝트 개요
