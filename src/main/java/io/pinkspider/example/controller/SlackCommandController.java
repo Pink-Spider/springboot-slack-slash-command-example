@@ -30,7 +30,7 @@ public class SlackCommandController {
             // 명령어 처리 로직
             if ("/hello".equalsIgnoreCase(StringUtils.trimToEmpty(command))) {
                 if (StringUtils.isBlank(text)) {
-                    return ResponseEntity.ok("올바른 숫자를 입력하세요. 사용법: /hello somebody");
+                    return ResponseEntity.ok("이름을 입력하세요. 사용법: /hello [이름]");
                 } else {
                     return ResponseEntity.ok(text.trim() + " 님 안녕하세요.");
                 }
